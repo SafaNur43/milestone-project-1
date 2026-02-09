@@ -1,4 +1,18 @@
 
-p {
-    font-weight: bold;
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Displayital@0;1&family=Oswald:wght@200..700&display=swap');
+
+body {
+    font-family: Lato;
+}
+
+h1 {
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #555555;
+}
+
+#logo{
+    float: left;
+    font-size: 220%;
 }
