@@ -25,3 +25,12 @@ h1 {
     float: left;
     font-size: 220%;
 }
+
+/* Footer */
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
