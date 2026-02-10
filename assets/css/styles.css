@@ -14,17 +14,51 @@ body {
     line-height: 1.6;
 }
 
+/* Header */
+ header {
+    background: #262626;
+    color: white;
+    padding: 20px;
+    text-align: center;
+ }
+
+ nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    margin: 15px;
+    margin-right: 0px;
+ }
+
+ nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px;
+    padding-right: 30px;
+ }
+
 h1 {
     font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #555555;
+    color: #e8dfdf;
 }
 
 #logo {
     float: left;
     font-size: 220%;
 }
+
+/* Hero */
+
+.hero {
+    background-image: url("/assets/css/images/pexels-shameel-mukkath-3421394-5175537.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
 
 /* Footer */
 
